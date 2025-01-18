@@ -1,6 +1,7 @@
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { ColourfulText } from "./ui/colourful-text";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 const Hero = () => {
   return (
@@ -26,19 +27,32 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            
             Innovative Solutions, Powered by Code.
           </p>
           <TextGenerateEffect
             words="Turning Backend Brilliance into Seamless Experiences."
-            className="text-center   mt-4"
+            className="text-center mt-4"
           />
 
           <p className="text-center mt-5 lg:mt-7 md:tracking-wider mb-4 text-sm md:text-md lg:text-md text-white">
-           
-            Hi! I&apos;m <ColourfulText text="Talha Bilal " /> a backend specialist excelling in MongoDB,
-            SQL, and crafting dynamic full-stack applications with Next.js.
+            Hi! I&apos;m{" "}
+            <span className="font-bold text-xl">
+              <ColourfulText text="Talha Bilal " />
+            </span>{" "}
+            a backend specialist excelling in Node.js, MongoDB, SQL, and
+            crafting dynamic full-stack applications with Next.js.
           </p>
+          <a href="#about" className="mt-12">
+            <HoverBorderGradient
+              containerClassName="rounded-full"
+              as="button"
+              className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 w-full justify-center p-2.5"
+              duration={1}
+              clockwise
+            >
+              <span>Show my work</span>
+            </HoverBorderGradient>
+          </a>
         </div>
       </div>
     </div>

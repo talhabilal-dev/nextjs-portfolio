@@ -24,7 +24,7 @@ export const FloatingNav = ({ navItems, className }) => {
         if (direction < 0) {
           setVisible(true);
         } else {
-          setVisible(true);
+          setVisible(false);
         }
       }
     }
@@ -45,7 +45,7 @@ export const FloatingNav = ({ navItems, className }) => {
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-3 rounded-xl border border-black/.1 items-center justify-center space-x-4 bg-[#9d4edd]/[0.1] backdrop-blur-3xl backdrop-saturate-200 dark:bg-[#9d4edd]/[0.1] dark:backdrop-blur-3xl dark:backdrop-saturate-200",
+          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-3 rounded-xl border border-black/.1 items-center justify-center space-x-4 bg-[#9d4edd]/[0.1] backdrop-blur-3xl  backdrop-saturate-200 dark:bg-[#9d4edd]/[0.1] dark:backdrop-blur-3xl dark:backdrop-saturate-200",
           className
         )}
         style={{
@@ -61,7 +61,7 @@ export const FloatingNav = ({ navItems, className }) => {
             key={`link=${idx}`}
             href={navItem.href}
             className={cn(
-              "relative dark:text-neutral-100 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-500 hover:text-neutral-500 "
+              "relative dark:text-neutral-100 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-500 hover:text-neutral-500  "
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
