@@ -19,18 +19,3 @@ export const navItems=[
         href:"#contact",
     },
 ]
-
-export const footerLinks=[
-    {
-        name:"Github",
-        icon:<FaGithub />,
-    },
-    {
-        name:"Linkedin",
-        icon:<CiLinkedin />,
-    },
-    {
-        name:"Facebook",
-        icon:<FaFacebookF />,
-    }
-]

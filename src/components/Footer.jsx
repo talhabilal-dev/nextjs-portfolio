@@ -1,4 +1,3 @@
-// import { footerLinks } from "@/contants";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
