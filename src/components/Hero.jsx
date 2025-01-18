@@ -46,7 +46,7 @@ const Hero = () => {
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
-              className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 w-full justify-center p-2.5"
+              className="dark:bg-transparent text-black dark:text-white flex items-center space-x-2 w-[200px] h-12 justify-center p-2.5"
               duration={1}
               clockwise
             >

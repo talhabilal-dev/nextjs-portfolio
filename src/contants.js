@@ -1,3 +1,6 @@
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaFacebookF } from "react-icons/fa";
 export const navItems=[
     {
         name:"Home",
@@ -15,4 +18,19 @@ export const navItems=[
         name:"Contact",
         href:"#contact",
     },
+]
+
+export const footerLinks=[
+    {
+        name:"Github",
+        icon:<FaGithub />,
+    },
+    {
+        name:"Linkedin",
+        icon:<CiLinkedin />,
+    },
+    {
+        name:"Facebook",
+        icon:<FaFacebookF />,
+    }
 ]

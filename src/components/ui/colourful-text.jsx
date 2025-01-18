@@ -6,17 +6,18 @@ export function ColourfulText({
   text
 }) {
   const colors = [
-    "rgb(131, 179, 32)",
-    "rgb(47, 195, 106)",
-    "rgb(42, 169, 210)",
-    "rgb(4, 112, 202)",
-    "rgb(107, 10, 255)",
-    "rgb(183, 0, 218)",
-    "rgb(218, 0, 171)",
-    "rgb(230, 64, 92)",
-    "rgb(232, 98, 63)",
-    "rgb(249, 129, 47)",
-  ];
+    "rgb(173, 216, 230)", 
+    "rgb(144, 238, 144)",
+    "rgb(255, 182, 193)", 
+    "rgb(240, 230, 140)", 
+    "rgb(221, 160, 221)", 
+    "rgb(135, 206, 250)", 
+    "rgb(250, 128, 114)", 
+    "rgb(255, 160, 122)", 
+    "rgb(238, 130, 238)", 
+    "rgb(255, 215, 0)",   
+];
+
 
   const [currentColors, setCurrentColors] = React.useState(colors);
   const [count, setCount] = React.useState(0);
