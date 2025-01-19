@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning className="bg-[#10002b]">
+    <html lang="en" suppressHydrationWarning className="dark:bg-[#10002b] bg-white">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/portfolio-logo.png" sizes="any" />
