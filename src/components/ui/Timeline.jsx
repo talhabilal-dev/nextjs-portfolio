@@ -28,13 +28,13 @@ export const Timeline = ({
     (<div
       className="w-full bg-[#10002b] ml-3 md:px-10 rounded-xl"
       ref={containerRef}>
-      <div className="w-full mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="w-full mx-auto py-10 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl font-bold mb-4 text-black text-center dark:bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
-          Changelog from my journey
+        Journey of Growth
         </h2>
         <p
-          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base text-center">
-          I&apos;ve been working on a number of projects over the years.
+          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-xl text-center">
+          From mastering the basics to building impactful projects,<br /> here’s my path to becoming a backend specialist.
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
