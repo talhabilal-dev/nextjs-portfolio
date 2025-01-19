@@ -42,7 +42,11 @@ const Hero = () => {
             a backend specialist excelling in Node.js, MongoDB, SQL, and
             crafting dynamic full-stack applications with Next.js.
           </p>
-          <a href="#about" className="mt-12">
+          <a
+            href="/pdf/cv.pdf"
+            className="mt-12"
+            download="talhabilal_resume.pdf"
+          >
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
@@ -50,7 +54,7 @@ const Hero = () => {
               duration={1}
               clockwise
             >
-              <span>Show my work</span>
+              <span>Download my Resume</span>
             </HoverBorderGradient>
           </a>
         </div>
