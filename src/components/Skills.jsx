@@ -4,10 +4,10 @@ import { skills } from "@/data";
 export default function Skills() {
   return (
     <section className="py-8 md:py-16 sm:mt-24" id="services">
-      <header className="text-center mb-8 z-50 sm:mt-24">
-        <p className=" text-3xl md:text-5xl lg:text-6xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
+      <header className="text-center mb-8 z-50">
+        <h1 className=" text-3xl md:text-5xl lg:text-6xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
           What I Offer
-        </p>
+        </h1>
         <p className="text-gray-900 dark:text-gray-200 text-base sm:text-lg">
           Explore my technical skills and expertise.
         </p>
