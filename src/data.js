@@ -2,18 +2,19 @@ import { FaNode, FaHandshake } from "react-icons/fa";
 import { TbBrandNextjs, TbDatabaseExport } from "react-icons/tb";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { GiStack } from "react-icons/gi";
+
 export const navItems = [
   {
     name: "Home",
     href: "/",
   },
   {
-    name: "About",
-    href: "#about",
+    name: "services",
+    href: "#services",
   },
   {
     name: "Projects",
-    href: "/projects",
+    href: "#projects",
   },
   {
     name: "Contact",
@@ -72,7 +73,6 @@ export const skills = [
   },
 ];
 
-
 export const testimonials = [
   {
     quote:
@@ -105,34 +105,69 @@ export const testimonials = [
   },
 ];
 
-export const workExperience = [
+export const approachSteps = [
   {
     id: 1,
     title: "Laying the foundation for successful development",
     desc: "Identifying goals and breaking down the problem into clear requirements.",
     className: "md:col-span-2",
-    thumbnail: "/images/exp1.svg",
+    thumbnail: "/svg/exp1.svg",
   },
   {
     id: 2,
     title: "Crafting a roadmap for efficient execution",
     desc: "Designing a roadmap, architecture, and selecting the right tech stack.",
     className: "md:col-span-2",
-    thumbnail: "/images/exp4.svg",
+    thumbnail: "/svg/exp4.svg",
   },
   {
     id: 3,
     title: "Bringing ideas to life with precision",
     desc: "Building features with clean code and ensuring quality through rigorous testing.",
     className: "md:col-span-2",
-    thumbnail: "/images/exp2.svg",
+    thumbnail: "/svg/exp3.svg",
   },
   {
     id: 4,
     title: "Delivering lasting results and support",
     desc: "Deploying the solution smoothly and providing long-term support.",
     className: "md:col-span-2",
-    thumbnail: "/images/exp3.svg",
+    thumbnail: "/svg/exp2.svg",
   },
 
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Test Project-1",
+    des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    img: "/images/img-1.jpg",
+    iconLists: ["/svg/node.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/three.svg", "/svg/framer.svg"],
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "Test Project-2",
+    des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    img: "/images/img-2.jpg",
+    iconLists: ["/svg/nextjs.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/framer.svg", "/svg/mongodb.svg"],
+    link: "/",
+  },
+  {
+    id: 3,
+    title: "Test Project-3",
+    des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    img: "/images/img-3.png",
+    iconLists: ["/svg/node.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/three.svg", "/svg/mongodb.svg"],
+    link: "/",
+  },
+  {
+    id: 4,
+    title: "Test Project-4",
+    des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    img: "/images/img-4.jpg",
+    iconLists: ["/svg/nextjs.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/three.svg", "/svg/gsap.svg"],
+    link: "/",
+  },
 ];

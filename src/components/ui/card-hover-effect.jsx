@@ -16,7 +16,7 @@ export const HoverEffect = ({ items, className }) => {
       {items.map((item, idx) => (
         <div
           key={item?.title}
-          className="relative group  block p-2 h-full w-full"
+          className="relative group flex items-center p-3 h-full w-full"
         >
           <GlareCard
             className={"relative z-50"}

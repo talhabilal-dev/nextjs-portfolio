@@ -45,15 +45,9 @@ export const FloatingNav = ({ navItems, className }) => {
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-3 rounded-xl border border-black/.1 items-center justify-center space-x-4 bg-[#9d4edd]/[0.1] backdrop-blur-3xl  backdrop-saturate-200 dark:bg-[#9d4edd]/[0.1] dark:backdrop-blur-3xl dark:backdrop-saturate-200",
+          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-3 rounded-xl border border-black/.1 items-center justify-center space-x-4 bg-[#240046]/[0.1] backdrop-blur-xl  backdrop-saturate-200 dark:bg-[#240046]/[0.1] dark:backdrop-blur-3xl dark:backdrop-saturate-200",
           className
         )}
-        style={{
-            backdropFilter: "blur(16px) saturate(180%)",
-            backgroundColor: "#240046",
-            borderRadius: "12px",
-            border: "1px solid rgba(255, 255, 255, 0.125)",
-          }}
 
       >
         {navItems.map((navItem, idx) => (

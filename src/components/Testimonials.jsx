@@ -1,6 +1,6 @@
 import React from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { testimonials } from "@/contants";
+import { testimonials } from "@/data";
 
 export default function Testimonials() {
   return (
