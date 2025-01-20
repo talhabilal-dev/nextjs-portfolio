@@ -3,7 +3,7 @@ import { skills } from "@/data";
 
 export default function Skills() {
   return (
-    <section className="py-8 md:py-16" id="services">
+    <section className="py-8 md:py-16 sm:mt-24" id="services">
       <header className="text-center mb-8 z-50">
         <p className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
           What I Offer
