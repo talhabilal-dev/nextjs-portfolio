@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^3.28.1",
-    "@vercel/analytics": "^1.4.1",
-    "@vercel/speed-insights": "^1.1.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.1",
     "motion": "^11.18.1",
