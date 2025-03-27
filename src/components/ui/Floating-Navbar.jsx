@@ -6,8 +6,8 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export const FloatingNav = ({ navItems, className }) => {
   const { scrollYProgress } = useScroll();
@@ -48,11 +48,10 @@ export const FloatingNav = ({ navItems, className }) => {
           "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-3 rounded-xl border border-black/.1 items-center justify-center space-x-4 bg-[#240046]/[0.1] backdrop-blur-xl  backdrop-saturate-200 dark:bg-[#240046]/[0.1] dark:backdrop-blur-3xl dark:backdrop-saturate-200",
           className
         )}
-
       >
         {navItems.map((navItem, idx) => (
           <Link
-            key={`link=${idx}`}
+            key={idx}
             href={navItem.href}
             className={cn(
               "relative dark:text-neutral-100 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-500 hover:text-neutral-500  "

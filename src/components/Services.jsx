@@ -1,9 +1,10 @@
 import { HoverEffect } from "./ui/card-hover-effect";
 import { skills } from "@/data";
 
-export default function Skills() {
+export default function services() {
   return (
-    <section className="py-8 md:py-16 sm:mt-24" id="services">
+    
+    <section className=" sm:mt-24" id="services">
       <header className="text-center mb-8 z-50">
         <h1 className=" text-3xl md:text-5xl lg:text-6xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
           What I Offer

@@ -6,7 +6,7 @@ import { GiStack } from "react-icons/gi";
 export const navItems = [
   {
     name: "Home",
-    href: "/",
+    href: "#home",
   },
   {
     name: "services",
