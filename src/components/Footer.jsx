@@ -58,20 +58,11 @@ const Footer = () => {
           </div>
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
             <a
-              href="https://www.linkedin.com/in/muhammad-talha-bilal-965992322/"
+              href="https://www.linkedin.com/in/talhabilal-dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <CiLinkedin className="text-2xl" />
-            </a>
-          </div>
-          <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-            <a
-              href="https://www.facebook.com/TBtech18/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <CiFacebook className="text-2xl" />
             </a>
           </div>
         </div>
