@@ -162,12 +162,4 @@ export const projects = [
     iconLists: ["/svg/node.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/three.svg", "/svg/mongodb.svg"],
     link: "/",
   },
-  {
-    id: 4,
-    title: "Test Project-4",
-    des: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    img: "/images/img-4.jpg",
-    iconLists: ["/svg/nextjs.svg", "/svg/tailwind.svg", "/svg/typescript.svg", "/svg/three.svg", "/svg/gsap.svg"],
-    link: "/",
-  },
 ];

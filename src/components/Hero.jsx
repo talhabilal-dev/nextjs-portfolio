@@ -5,7 +5,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 const Hero = () => {
   return (
-    <div className=" pt-36 dark:bg-[#10002b] bg-white " id="home">
+    <div className="min-h-screen pt-20 md:pt-44 lg:pt-48 dark:bg-[#10002b] bg-white " id="home">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

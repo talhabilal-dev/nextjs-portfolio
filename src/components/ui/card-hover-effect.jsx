@@ -9,17 +9,17 @@ export const HoverEffect = ({ items, className }) => {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3",
         className
       )}
     >
       {items.map((item, idx) => (
         <div
           key={item?.title}
-          className="relative group flex items-center p-3 h-full w-full"
+          className="relative group flex items-center p-3 h-auto w-full"
         >
           <GlareCard
-            className={"relative z-50"}
+            className={"relative z-50 h-full w-full"}
             children={
               <Card>
                 <HoverBorderGradient duration={0.5}>

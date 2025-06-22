@@ -8,14 +8,19 @@ export default function Experience() {
       title: "The Beginning (2023)",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-xl font-bold mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-xl font-bold">
             My journey into development began, laying the foundation with
             essential skills and small projects.
           </p>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/svg-1.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/svg-1.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
                 Web Development Basics
@@ -27,7 +32,12 @@ export default function Experience() {
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/svg-2.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/svg-2.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
                 Web Development Competition
@@ -49,7 +59,12 @@ export default function Experience() {
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/python.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/python.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
                 Python Basics
@@ -67,7 +82,8 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-xl font-bold mb-8">
-            Laid the groundwork for my professional career with diverse projects.
+            Laid the groundwork for my professional career with diverse
+            projects.
           </p>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
@@ -78,8 +94,8 @@ export default function Experience() {
                 Management System in Java
               </h3>
               <p className="text-xs md:text-base p-2 text-black dark:text-slate-400">
-                Created a basic management system to gain hands-on experience with
-                object-oriented programming principles.
+                Created a basic management system to gain hands-on experience
+                with object-oriented programming principles.
               </p>
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
@@ -96,7 +112,12 @@ export default function Experience() {
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/backened.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/backened.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
                 Backend Developer Role
@@ -108,7 +129,12 @@ export default function Experience() {
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/management.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/management.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
                 Laboratory Management System
@@ -127,51 +153,74 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-xl font-bold mb-8">
-          Specializing in backend and full-stack development.
+            Specializing in backend and full-stack development.
           </p>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/youtube.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/youtube.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
-              YouTube Backend Project
+                YouTube Backend Project
               </h3>
               <p className="text-xs md:text-base p-2 text-black dark:text-slate-400">
-              Built a robust backend system with Node.js and MongoDB to specialize in backend skills.
+                Built a robust backend system with Node.js and MongoDB to
+                specialize in backend skills.
               </p>
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/mongodb.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/mongodb.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
-              MongoDB Integration
+                MongoDB Integration
               </h3>
               <p className="text-xs md:text-base p-2 text-black dark:text-slate-400">
-              Gained expertise in NoSQL databases through practical projects.
+                Gained expertise in NoSQL databases through practical projects.
               </p>
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/nextjs.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/nextjs.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
-              Next.js Full-Stack Development
+                Next.js Full-Stack Development
               </h3>
               <p className="text-xs md:text-base p-2 text-black dark:text-slate-400">
-              Mastered Next.js to create dynamic and scalable full-stack applications.
+                Mastered Next.js to create dynamic and scalable full-stack
+                applications.
               </p>
             </div>
             <div className="rounded-lg min-h-[200px] w-full shadow-md items-center flex justify-around flex-col text-black dark:text-slate-100 bg-[#240046] p-4">
               <div>
-                <Image src="/svg/learning.svg" width={80} height={80} alt="image" />
+                <Image
+                  src="/svg/learning.svg"
+                  width={80}
+                  height={80}
+                  alt="image"
+                />
               </div>
               <h3 className="Heading font-bold text-base md:text-lg p-2">
-              Continuous Learning
+                Continuous Learning
               </h3>
               <p className="text-xs md:text-base p-2 text-black dark:text-slate-400">
-              Continuously improving and expanding my skills for backend and full-stack development.
+                Continuously improving and expanding my skills for backend and
+                full-stack development.
               </p>
             </div>
           </div>
@@ -179,7 +228,7 @@ export default function Experience() {
       ),
     },
   ];
-  
+
   return (
     <div className="w-full">
       <Timeline data={data} />

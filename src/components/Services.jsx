@@ -3,8 +3,7 @@ import { skills } from "@/data";
 
 export default function services() {
   return (
-    
-    <section className=" sm:mt-24" id="services">
+    <section className="sm:mt-24 relative" id="services">
       <header className="text-center mb-8 z-50">
         <h1 className=" text-3xl md:text-5xl lg:text-6xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-200">
           What I Offer
@@ -14,13 +13,12 @@ export default function services() {
         </p>
       </header>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xl flex flex-col items-center justify-center">
         <HoverEffect
           items={skills}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
         />
       </div>
     </section>
   );
 }
-
